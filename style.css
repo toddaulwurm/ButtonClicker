@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: honeydew;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+#navbar {
+    height: 50px;
+    background-color: rgb(2, 114, 114);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar h1 {
+    font-weight: bold;
+    margin-left: 20px;
+}
+#navbar input{
+    margin-left: 200px;
+}
+#navbar input, #navbar button {
+    border: 3px solid darkslategrey;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-right: 20px;
+}
+
+#core {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.def {
+    border: 3px solid darkslategrey;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 224, 0.548);
+    display: flex;
+    margin: 20px;
+    width: 50vw;
+}
+#defLeft {
+    margin-left: 20px; 
+    margin-bottom: 20px;;
+    flex: 1;
+}
+#defLeft h5{
+    color: rgba(56, 92, 92, 50);
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.def h3 {
+    margin: 20px;
+    padding: 30px;
+    flex: 1;
+    border: 2px dotted grey;
+    border-radius: 50%;
+}
+
+
+#addDef {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+}
+#addDef button {
+    border-radius: 10px;
+    background-color: floralwhite;
+}
+
